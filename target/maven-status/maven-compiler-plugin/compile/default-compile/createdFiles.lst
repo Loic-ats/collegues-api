@@ -1,0 +1,7 @@
+dev/dto/CollegueDto.class
+dev/entite/Collegue.class
+dev/web/collegue/CollegueCtrl.class
+dev/services/CollegueService.class
+dev/repository/CollegueRepository.class
+dev/ColleguesApplication.class
+dev/entite/GenelarEntity.class
