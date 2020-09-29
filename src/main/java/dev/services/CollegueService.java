@@ -48,4 +48,12 @@ public class CollegueService {
 		return this.collegueRepo.findByMatricule(matricule);
 	}
 
+	public List<Collegue> ListAllCollegue() {
+		return collegueRepo.findAll();
+	}
+
+	public void supprimerCollegueService(String matricule) {
+		collegueRepo.supprimerCollegueParMatricule(matricule);
+	}
+
 }
